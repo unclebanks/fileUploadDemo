@@ -1,0 +1,25 @@
+body {
+    min-height: 100%;
+}
+#fileDemoContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    min-height: 100vh;
+    height: 100vh;
+}
+#fileButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1;
+    min-height: 100%;
+}
+#fileConsoleContainer {
+    grid-row: 2;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+#fileConsole {
+    border: 2px solid black;
+    background-color: gray;
+}
